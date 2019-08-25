@@ -18,7 +18,6 @@ contract Lottery{
 
                                   //ether to players array
     }
-    
     function get_balance() public view returns(uint){
         require(msg.sender == manager);
         return address(this).balance; //return contract balance
